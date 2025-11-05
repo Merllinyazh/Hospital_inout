@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { getStaff, getDoctors } from "../api";
-import Sidebar from "../components_ad/Sidebar";
+import Sidebar from "../components/Sidebar_ad";
 import {
   User,
   Users,
