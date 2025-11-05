@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { createStaff, getStaffById, updateStaff } from "../api";
 import { useNavigate, useParams } from "react-router-dom";
-import Sidebar from "../components/Sidebar";
+import Sidebar from "../components_ad/Sidebar";
 import { toast } from "react-toastify";
 
 export default function StaffForm() {

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { getStaff, deleteStaff } from "../api";
 import { Link } from "react-router-dom";
-import Sidebar from "../components/Sidebar";
-import Navbar from "../components/Nav";
+import Sidebar from "../components_ad/Sidebar";
+import Navbar from "../components_ad/Nav";
 import { toast } from "react-toastify";
 
 export default function StaffList() {

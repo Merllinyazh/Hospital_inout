@@ -1,14 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
-import Navbar from "./components/Nav";
-import Sidebar from "./components/Sidebar";
-import Dashboard from "./pages/admin_Dashboard";
-import StaffList from "./pages/staff_list";
-import StaffForm from "./pages/staff_form";
-import DoctorList from "./pages/doc_list";
-import AddDoctor from "./pages/doc_form";
-import PharmList from "./pages/pharma_list";
-import PharmaForm from "./pages/pharma_form";
+import Navbar from "./components_ad/Nav";
+import Sidebar from "./components_ad/Sidebar";
+import Dashboard from "./pages_ad/admin_Dashboard";
+import StaffList from "./pages_ad/staff_list";
+import StaffForm from "./pages_ad/staff_form";
+import DoctorList from "./pages_ad/doc_list";
+import AddDoctor from "./pages_ad/doc_form";
+import PharmList from "./pages_ad/pharma_list";
+import PharmaForm from "./pages_ad/pharma_form";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 function App() {

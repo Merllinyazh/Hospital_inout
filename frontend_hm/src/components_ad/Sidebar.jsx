@@ -15,7 +15,7 @@ export default function Sidebar() {
   return (
     <div className="fixed top-0 left-0 h-screen w-64 bg-red-700 text-white flex flex-col shadow-lg z-50">
       <div className="text-center text-2xl font-bold py-6 border-b border-red-500">
-        🏥 Hospital Admin
+       Hospital Admin
       </div>
 
       <nav className="flex-1 mt-6">
